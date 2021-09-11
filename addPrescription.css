@@ -1,0 +1,126 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bg.jpg);
+    height:100vh;
+    background-size:cover;
+    background-position:left;
+}
+
+
+
+.Headline
+{
+    position:absolute;
+    margin-top: 1px;
+   /* margin-bottom: 200px;*/
+}
+
+h2
+{
+    color:white;
+    font-size:70px;
+    text-align:center;
+    margin-left:400px;
+
+}
+
+form {
+    border: 5px solid #f1f1f1;
+    width: 50%;
+    height:350px;
+    margin: auto; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /*width:250px;*/
+
+}
+
+input[type=text],[type=hidden],[type=file] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 10px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    background-color: #4CAF50;
+    color: black;
+    font-size: 15px;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+
+}
+
+
+label{
+    color: yellow;
+    
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+
+}
+
+.container {
+    padding: 16px;
+}
+
+
+
+.logo img
+{
+    width:200px;
+}
+
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    margin-right:600
+    margin-top: 200px;
+}
+
+.button
+{
+    margin-top:30px;
+    margin-left:800px;
+    width: 100px;
+}
+
+.bttn
+{
+    border:2px solid white;
+    padding:10px 30px;
+    color:white;
+    text-decoration:none;
+    margin-right:5px;
+    font-size:20px;
+    background-color: black;
+    
+}
+
+.bttn:hover
+{
+    background-color:dimgrey;
+}
+
+.errorMsg{
+    font-size:18; 
+    color:yellow; 
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+

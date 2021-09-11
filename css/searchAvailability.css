@@ -1,0 +1,108 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(css/bg.jpg);
+    height:100vh;
+    background-size:cover;
+    background-position:left;
+}
+
+.logo img
+{
+    width:200px;
+}
+
+.Headline
+{
+    position:absolute;
+    margin-top: 1px;
+}
+
+h2
+{
+    color:white;
+    font-size:70px;
+    text-align:center;
+    margin-left:400px;
+}
+
+form {
+    border: 5px solid #f1f1f1;
+    width: 40%;
+    height:250px;
+    margin: auto; 
+    margin-left: 350px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /*width:250px;*/
+}
+
+input[type=text] {
+    width: 70%;
+    height:40px;
+    padding: 14px 20px;
+    margin: 30px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 14px 20px;
+    margin: 20px 20px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+
+}
+
+
+
+label{
+    color:yellow;
+    font-size: 28px;
+    padding: 10px 10px;
+    
+}
+
+.button
+{
+	margin-top:30px;
+	margin-left:800px;
+}
+
+.bttn
+{
+	border:2px solid white;
+	padding:10px 30px;
+	color:white;
+	text-decoration:none;
+	margin-right:5px;
+	font-size:20px;
+	background-color: black;
+	
+}
+
+.bttn:hover
+{
+	background-color:grey;
+}
+
+.errorMsg{
+    font-size:18; 
+    color:yellow; 
+    margin-top:10px;
+    margin-bottom: 10px;
+}
